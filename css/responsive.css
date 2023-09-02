@@ -1,0 +1,100 @@
+/* Media queries for different devices */
+
+@media (min-width: 370px) and (max-width: 780px){
+    table {
+        width: 400px;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+
+    .table-container {
+        overflow-y: scroll;
+        overflow-x: scroll;
+        margin: 6px;
+        padding: 5px;
+    }
+}
+
+@media (min-width: 414px) and (max-width: 896px){
+    table {
+        width: 350px;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+
+    .table-container {
+        overflow-y: scroll;
+        overflow-x: scroll;
+        margin: 6px;
+        padding: 5px;
+    }
+
+    table, th, td {
+        font-size: 40px;
+     }
+}
+
+@media (min-width: 375px) and (max-width: 667px){
+    table {
+        width: 350px;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+
+    .table-container {
+        overflow-y: scroll;
+        overflow-x: scroll;
+        margin: 6px;
+        padding: 9px;
+    }
+
+    table, th, td {
+       font-size: 10px;
+    }
+    
+}
+
+@media (min-width: 768px) and (max-width: 1024px){
+    table {
+        width: 600px;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+
+    .table-container {
+        margin: 6px;
+        padding: 9px;
+    }
+
+    table, th, td {
+       font-size: 18px;
+    }
+}
+
+@media (min-width: 820px) and (max-width: 1180px){
+    table {
+        width: 600px;
+    }
+
+    th, td {
+        padding: 6px;
+    }
+
+    .table-container {
+        margin: 6px;
+        padding: 9px;
+    }
+
+    table, th, td {
+       font-size: 18px;
+    }
+    
+}
